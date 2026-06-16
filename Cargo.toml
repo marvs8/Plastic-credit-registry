@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+    "contracts/issuance",
+    "contracts/registry",
+    "contracts/retirement",
+]
+
+[profile.release]
+opt-level = "z"
+codegen-units = 1
+lto = true
