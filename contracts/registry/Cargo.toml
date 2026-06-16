@@ -1,0 +1,12 @@
+[package]
+name = "registry"
+version = "0.1.0"
+edition = "2021"
+description = "Soroban registry contract for the Plastic Credit & Circular Economy Registry"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+soroban-sdk = "0.10"
