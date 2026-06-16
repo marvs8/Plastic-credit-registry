@@ -426,8 +426,10 @@ plastic-credit-registry/
 │   └── integration/
 ├── docs/
 │   ├── architecture.md
+│   ├── contributing.md
 │   ├── mrv-spec.md
 │   └── governance.md
+├── ISSUES.md
 ├── .env.example
 ├── Cargo.toml
 └── README.md
